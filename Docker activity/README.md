@@ -1,21 +1,21 @@
 # Docker Activity
 
 This Compose project runs the Student Account application as a local development
-stack connected to the source folders in the parent project.
+stack. Run the commands below from the repository root.
 
 ## Services
 
-| Service | Container | URL |
+| Service | Compose service | URL |
 | --- | --- | --- |
-| React/Vite | `docker-activity-react` | http://localhost:3000 |
-| Node.js API | `docker-activity-nodejs` | http://localhost:3002 |
-| Laravel/PHP | `docker-activity-laravel` | http://localhost:8080 |
-| phpMyAdmin | `docker-activity-phpmyadmin` | http://localhost:8081 |
-| MySQL | `docker-activity-mysql` | localhost:3306 |
+| React/Vite | `react` | http://localhost:3000 |
+| Node.js API | `nodejs` | http://localhost:3002 |
+| Laravel/PHP | `laravel` | http://localhost:8080 |
+| phpMyAdmin | `phpmyadmin` | http://localhost:8081 |
+| MySQL | `mysql` | localhost:3306 |
 
 ## Start
 
-From this directory:
+From the repository root:
 
 ```powershell
 docker compose up -d --build
