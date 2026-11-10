@@ -1,0 +1,4 @@
+name: docker-activity
+
+include:
+  - path: Docker activity/docker-compose.yml

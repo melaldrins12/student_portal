@@ -34,6 +34,16 @@ A standalone Laravel + React system for student account management and document 
 - Node.js 16+ & npm
 - MySQL or SQLite
 
+## Run with Docker
+
+From the project root, start the Docker development stack with:
+
+```powershell
+docker compose up --build
+```
+
+See [`Docker activity/README.md`](Docker%20activity/README.md) for service URLs and other Docker commands.
+
 ## Setup Instructions
 
 ### Backend Setup
