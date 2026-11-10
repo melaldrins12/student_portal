@@ -107,19 +107,6 @@ const Login = () => {
 
         {/* Main Card */}
         <div className="card p-8 backdrop-blur-sm bg-white/90 animate-slide-up">
-          {/* Development Notice */}
-          <div className="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <div className="flex items-center gap-2 text-blue-800">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className="font-medium">Development Mode</span>
-            </div>
-            <p className="text-sm text-blue-700 mt-1">
-              Using mock authentication. Any email/password will work for testing.
-            </p>
-          </div>
-
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Email Field */}
             <div className="space-y-2">
